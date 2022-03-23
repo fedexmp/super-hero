@@ -39,5 +39,8 @@ public class SuperHeroe {
   @Column(name="updated_at")
   private Date updatedAt;
 
-
+  public SuperHeroe(String name, String skill) {
+    this.name = name;
+    this.skill = skill;
+  }
 }
